@@ -1,0 +1,47 @@
+/****** Base style *******/
+* {
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Simple Responsive Framework */
+.container{
+  margin: 20px;
+  border: 2px solid black;
+}
+.row{
+    width: 100%;
+}
+
+/* Large devices only */
+@media (min-width: 992px) {
+    .col-lg-4{
+      float: left;
+      border: 2px solid black;
+      width: 30%;
+      margin: 1.6%;
+    }
+
+}
+
+
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6{
+      float: left;
+      border: 2px solid black;
+      width: 46.5%;
+      margin: 1.6%;
+    }
+
+    .col-md-12{
+      float: left;
+      border: 2px solid black;
+      width: 98.4%;
+      margin: 1.6%;
+    }
+}
